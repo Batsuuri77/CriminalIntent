@@ -38,6 +38,8 @@ dependencies {
     implementation(libs.activity)
     implementation(libs.constraintlayout)
     implementation(libs.appcompat.v7)
+    implementation(libs.support.annotations)
+    implementation(libs.support.v4)
     testImplementation(libs.junit)
     androidTestImplementation(libs.ext.junit)
     androidTestImplementation(libs.espresso.core)
